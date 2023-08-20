@@ -1,47 +1,32 @@
-Team Members:
-Narayana Ghosh :      G01348658
-Nandini Daggumalli :  G01354212
-Vaishnavi Muddasani:  G01413018
-Abhay Joshi:          G01394679      
 
+# Frequent Flier Project
 
-JSP Links:
+## Project Overview
+The "Frequent flier" project is a dual-platform solution that provides functionalities for tracking flight details, award points, and more for passengers. It comprises both a web application and an Android application.
 
-http://127.0.0.1:8080/frequentflier/login?user=Emily_Davis&pass=Emily@123
+## Features and Functionality
+1. **User Authentication**: Passengers can log in to view their specific details.
+2. **Flight Details Retrieval**: Passengers can view their associated flight details, including flight ID, miles, and destination.
+3. **Award Details**: Passengers can view their total award points and retrieve specific award IDs associated with their account.
+4. **Additional Functionalities**: Further exploration of the project might reveal functionalities like redeeming points, transferring points between users, and more.
 
-http://127.0.0.1:8080/frequentflier/Info.jsp?passid=32
+## Setup and Installation
+### Web Application:
+1. Copy the `frequentflier` folder to the `webapps` directory of a Tomcat server.
+2. Start the Tomcat server to run the web application.
 
-http://127.0.0.1:8080/frequentflier/Flights.jsp?passid=12
+### Android Application:
+1. Copy the `FreqFlier` folder to the `AndroidStudioProjects` directory where Android Studio is installed.
+2. Open Android Studio, load the project, and run the application to simulate and view the app pages.
 
-http://127.0.0.1:8080/frequentflier/FlightDetails.jsp?flightid=4001
+## Usage
+- For the web application, use the provided local links to access different functionalities (e.g., login, view flight details, check award points).
+- For the Android application, navigate through the app pages to access various features.
+- Test credentials: Use the username `Emily_Davis` and password `Emily@123` for testing.
 
-http://127.0.0.1:8080/frequentflier/AwardIds.jsp?passid=20
-
-http://127.0.0.1:8080/frequentflier/RedemptionDetails.jsp?AwardId=201&passid=1
-
-http://127.0.0.1:8080/frequentflier/GetPassengerids.jsp?passid=30
-
-http://127.0.0.1:8080/frequentflier/TransferPoints.jsp?spid=1&dpid=2&npoints=5
-
-
-
-Implementation:
-1. Copy frequentflier file to webapps flder in tomcat server
-2. Copy the file FreqFlier to AndroidStudioProjects folder where android studio is installed.
-3. Run the android program to simulate and see the android pages.
-
-
-The app can be tested by using below user and pass, though we have 40 users total in Databases in login table.
-Preferred user to test is  Emily_Davis/Emily@123
-
-User                 Pass
----------------------------
-Emily_Davis	      Emily@123
-Michael_Smith	Michael@123
-Sarah_Johnson	Sarah@123
-David_Brown	      David@123
-Andrew_Taylor	Andrew@123
-Elizabeth_Wilson	Elizabeth@123
-
-
+## Team Members
+- Narayana Ghosh
+- Nandini Daggumalli
+- Vaishnavi Muddasani
+- Abhay Joshi
 
